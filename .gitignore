@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Azure Functions
+local.settings.json
+.python_packages/
+.funcignore
+
+# Databricks
+.databricks/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Credenciales y configuración local
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos
+*.json
+*.csv
+*.parquet
+output/
