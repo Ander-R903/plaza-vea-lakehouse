@@ -169,6 +169,13 @@ Los IDs de la API de Plaza Vea no están incluidos. Para obtenerlos:
 
 ---
 
+## Hallazgos técnicos
+
+Durante el desarrollo se identificaron y resolvieron 8 problemas de calidad de datos en producción, incluyendo discrepancias en cálculo de precios, duplicación por múltiples secciones VTEX, arrays vacíos y productos promocionales distorsionando métricas.
+
+Ver documentación completa → [DATA_QUALITY.md](https://github.com/Ander-R903/plaza-vea-lakehouse/blob/main/DATA_QUALITY.md)
+
+
 ## Mejoras futuras
 
 - [ ] Migrar secretos a Azure Key Vault
