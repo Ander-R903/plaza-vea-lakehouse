@@ -28,17 +28,39 @@ La versión local se puede encontrar en: [plaza-vea-pricing](https://github.com/
 
 ## Arquitectura
 
-> diagrama aquí — reemplazar con imagen final
+### 1. Ingesta — Extracción & Landing
 
-```
-VTEX API → Azure Function → ADLS Gen2 Landing
-                                    ↓
-                          Lakeflow Job (Databricks)
-                                    ↓
-                    Bronze → Silver → Gold (Star Schema)
-                                    ↓
-                           Power BI · Direct Lake
-```
+<p align="center">
+  <img
+    src="architecture/01-ingesta.png"
+    alt="Ingesta"
+    width="600"
+  />
+</p>
+
+---
+
+### 2. Orquestación — Lakeflow Job
+
+<p align="center">
+  <img
+    src="architecture/02-lakeflow.png"
+    alt="Lakeflow"
+    width="600"
+  />
+</p>
+
+---
+
+### 3. Medallion Architecture
+
+<p align="center">
+  <img
+    src="architecture/03-medallion.png"
+    alt="Medallion"
+    style="max-width: 1200px; width: 100%;"
+  />
+</p>
 
 ---
 
