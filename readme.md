@@ -63,6 +63,18 @@ La versión local se puede encontrar en: [plaza-vea-pricing](https://github.com/
 </p>
 
 ---
+## Dashboard — Pricing Analytics
+
+Construido en Databricks AI/BI Dashboard sobre Gold layer · Direct Lake · actualización diaria post-batch.
+
+<p align="center">
+  <img
+    src="assets/dashboard_preview.png"
+    alt="Plaza Vea Pricing Dashboard"
+    width="800"
+  />
+</p>
+---
 
 ## Stack técnico
 
